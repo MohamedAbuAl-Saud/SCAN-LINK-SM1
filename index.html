@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scan Link SM — Advanced Website & URL Threat Intelligence Platform</title>
+    <meta
+      name="description"
+      content="Scan Link SM is an advanced website and URL security analysis platform by Mohamed Abu AlSaud SM (@A_Y_TR) for phishing detection, official domain verification, TLS inspection, redirect tracing, and live threat feeds."
+    />
+    <meta name="author" content="Mohamed Abu AlSaud SM" />
+    <meta name="robots" content="index, follow" />
+    <link id="canonical-link" rel="canonical" href="https://scanlinksm.up.railway.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Scan Link SM" />
+    <meta property="og:title" content="Scan Link SM — Scan Smart. Stay Safe." />
+    <meta
+      property="og:description"
+      content="Deterministic website and URL threat intelligence platform for phishing detection, official domain verification, TLS inspection, redirect tracing, and live threat feeds."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/aistudio/file_0000000054a88246b179c3c06b2e9fbf_3b82a7f2.png" />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Scan Link SM — Website & URL Security Analysis" />
+    <meta
+      name="twitter:description"
+      content="Inspect suspicious links, trace redirects, verify official domains, and analyze threat indicators with Scan Link SM."
+    />
+    <meta name="twitter:image" content="/assets/aistudio/file_0000000054a88246b179c3c06b2e9fbf_3b82a7f2.png" />
+
+    <!-- Structured Data (Schema.org JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebApplication",
+            "name": "Scan Link SM",
+            "applicationCategory": "SecurityApplication",
+            "operatingSystem": "Web",
+            "description": "Specialized deterministic platform for inspecting URLs and websites and analyzing security threat indicators.",
+            "creator": {
+              "@type": "Person",
+              "name": "Mohamed Abu AlSaud SM"
+            }
+          },
+          {
+            "@type": "Organization",
+            "name": "Scan Link SM",
+            "founder": {
+              "@type": "Person",
+              "name": "Mohamed Abu AlSaud SM"
+            },
+            "sameAs": ["https://t.me/A_Y_TR"]
+          }
+        ]
+      }
+    </script>
+
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/png" href="/assets/aistudio/file_0000000054a88246b179c3c06b2e9fbf_3b82a7f2.png" />
+    <link rel="apple-touch-icon" href="/assets/aistudio/file_0000000054a88246b179c3c06b2e9fbf_3b82a7f2.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var storedTheme = localStorage.getItem('scanlink_theme');
+          var theme = storedTheme;
+          if (!theme) {
+            theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+          }
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+          var storedLang = localStorage.getItem('scanlink_lang');
+          var lang = storedLang === 'ar' ? 'ar' : 'en';
+          document.documentElement.lang = lang;
+          document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-white text-[#111827] dark:bg-black dark:text-white antialiased selection:bg-[#FF263F]/20 selection:text-[#FF263F]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
